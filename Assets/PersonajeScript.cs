@@ -33,6 +33,7 @@ public class PersonajeScript : MonoBehaviour
         if (alimento)
         {
             tomarAlimento(alimento.valorAlimentario);
+            Destroy(other.gameObject);
         }
     }
 }
